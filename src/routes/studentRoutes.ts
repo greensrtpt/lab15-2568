@@ -76,7 +76,7 @@ router.get("/students/:studentId", (req: Request, res: Response) => {
   } catch (err) {
     return res.status(500).json({
       success: false,
-      message: "Somthing is wrong, please try again",
+      message: "Something is wrong, please try again",
       error: err,
     });
   }
@@ -123,7 +123,7 @@ router.post("/students", (req: Request, res: Response) => {
   } catch (err) {
     return res.json({
       success: false,
-      message: "Somthing is wrong, please try again",
+      message: "Something is wrong, please try again",
       error: err,
     });
   }
@@ -170,7 +170,7 @@ router.put("/students", (req: Request, res: Response) => {
   } catch (err) {
     return res.json({
       success: false,
-      message: "Somthing is wrong, please try again",
+      message: "Something is wrong, please try again",
       error: err,
     });
   }
@@ -211,7 +211,7 @@ router.delete("/students", (req: Request, res: Response) => {
   } catch (err) {
     return res.json({
       success: false,
-      message: "Somthing is wrong, please try again",
+      message: "Something is wrong, please try again",
       error: err,
     });
   }
